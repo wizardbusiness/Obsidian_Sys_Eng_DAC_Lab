@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ansible/Installing Ansible.md",
+                "file": "Ansible/Creating an Ansible Playbook.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Installing Ansible"
+              "title": "Creating an Ansible Playbook"
             }
           },
           {
@@ -199,9 +199,10 @@
   },
   "active": "c5fec6cd10d810e2",
   "lastOpenFiles": [
+    "Ansible/Installing Ansible.md",
+    "Python.md",
     "Ansible/Creating an Ansible Playbook.md",
     "Ansible/_Ansible Glossary.md",
-    "Ansible/Installing Ansible.md",
     "1_Glossary/Shared Glossary.md",
     "YAML/YAML Example.md",
     "0_Resources/Static Resources/Screenshots/SQL Server 2025/Install - Windows Server Core/SQL-SERVER-Bootstrapper-GUI.png",
