@@ -15,8 +15,11 @@
 
 - ##### Widespread adoption
 - ##### Human-Readable format
+
 #### Playbook Structure
 
+##### Plays 
+- ###### A sequence of tasks that accomplish a tasks is called a play
 ##### Tasks (the *what*)
 - ###### Tasks are defined as one or more modules arranged sequentially that together perform an action. 
 
@@ -57,6 +60,7 @@ title: **module example**
 			name: nginx
 			state: latest
 ```
+
 ##### Hosts (the *where*)
 - ###### The system(s) on which tasks should be executed
 - ###### A host can be any network addressable physical or virtual device running a supported operating system. 
@@ -78,10 +82,3 @@ title: **Host group example**
 	  # user
 	  - remote_user: root
 ```
-
-```ad-question
-title: Disambiguation
-**Q: Does 'User' refer to an actual person who will need to authenticate on Ansibles behalf?**
-**A: No, it refers purely to a logical user with permissions within the target host operating system**
-```
-
