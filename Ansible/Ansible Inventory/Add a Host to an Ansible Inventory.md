@@ -4,7 +4,7 @@
 #### Prerequisites
 - [[Create an Ansible Inventory]]
 #### Additional References
--  [[1] example.com reference alias][1]
+1.  [example.com reference alias][1]
 
 [1]: www.example.com
 #### See Also

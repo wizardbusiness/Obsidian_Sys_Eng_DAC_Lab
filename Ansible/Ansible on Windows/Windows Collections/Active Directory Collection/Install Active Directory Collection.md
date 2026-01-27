@@ -19,8 +19,8 @@ title: `code` snippet
 collapse: true
 	ansible-galaxy collection install microsoft.ad
 ```
-##### *More Context*
-######  Code Snippet Decomposition
+##### *Context*
+###### Code Snippet Decomposition
 
 **Syntax**
 - `ansible-galaxy` **<parent command\> - cli tool included with `ansible` for finding community roles and collections** 

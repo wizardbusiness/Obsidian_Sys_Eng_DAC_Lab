@@ -1,4 +1,4 @@
-##### ***Error Code: 0x7f3d3a2039d0***
+##### ***Error Code: NewConnectionsError***
 ##### ***Error Screenshot***
 
 ```ad-error 

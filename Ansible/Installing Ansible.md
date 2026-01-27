@@ -1,5 +1,5 @@
 ****
-##### ***Use this doc when** You want to create an [[_Ansible Glossary#Ansible|ansible]] [[_Ansible Glossary#Control Node|control node]]
+##### ***Use this doc when** You want to create an [[_Ansible Glossary#Ansible|Ansible]] [[_Ansible Glossary#Control Node|control node]]
 
 #### Additional Resources:
 - [Ansible Docs - Getting Started](https://docs.ansible.com/projects/ansible/latest/getting_started/introduction.html)
@@ -12,19 +12,11 @@
 
 ***
 ### *Preface*
-##### There are a lot of ways to install [[_Ansible Glossary#Ansible|Ansible]], check out the [Ansible Docs - Getting Started](https://docs.ansible.com/projects/ansible/latest/getting_started/introduction.html)  web page for more. The easiest way IMO is to just use pip to download the Ansible package so thats what this doc focuses on.
+##### IMO the easiest way to install [[_Ansible Glossary#Ansible|Ansible]] is via pip so thats what this doc focuses on.Check out the [Ansible Docs - Getting Started](https://docs.ansible.com/projects/ansible/latest/getting_started/introduction.html)  web page for a more comprehensive list of installation methods. 
 
 ### Instructions
 
-#### **Install via pip**
-#### 1. Verify that pip is installed 
-*If not installed, see *
-```ad-ad-py
-collapse: true
-	python3 -m pip -V
-```
-
-#### 2. *pip install* ansible with python version of your choice 
+#### *pip install* ansible with python version of your choice 
 *Note that ansible is installed for the current user only*
 ```ad-ad-py
 collapse: true
