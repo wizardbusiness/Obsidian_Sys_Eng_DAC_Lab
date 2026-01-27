@@ -3,22 +3,34 @@
     color: red;
 }
 
-.HyperMD-header-2, .HyperMD-header-2 > .cm-em{
+.el-h2 h2, h2 em, .HyperMD-header-2, .HyperMD-header-2 > .cm-em{
     color: orange;
 }
 
-.HyperMD-header-3, .HyperMD-header-3 > .cm-em{
+.el-h3 h3, h3 em, .markdown-rendered h3,.HyperMD-header-3, .HyperMD-header-3 > .cm-em{
     color: #6da800;
 }
 
+.el-h6 h6, h6 em, .markdown-rendered h6,.HyperMD-header-6, .HyperMD-header-6 > .cm-em{
+    /* color: #6aa8d4; */
+    color: #5288d3;
+}
+
 .markdown-rendered .internal-link {
-    background-color: color-mix(in srgb, var(--code-background), transparent 50%);
-    padding: 0.15em 0.15em;
-    border-radius: var(--radius-s); */
-    font-size: 0.9em;
+    /* color: color-mix(in srgb, currentColor, #dddddd 16%); */
+    color: currentColor;
+    background-color: color-mix(in srgb, #682aec, transparent 90%); 
+    padding: 0.10em 0.10em;
     font-weight: 500;
-    /* color: color-mix(in srgb, currentColor 75%, rgb(213, 225, 225) 25%); */
-    color: currentColor
+
+}
+
+.markdown-rendered ul .internal-link {
+    color: var(--link-color);
+    background-color: inherit;
+    padding: inherit;
+    border-radius: inherit; 
+    font-weight: inherit;
 }
 
 

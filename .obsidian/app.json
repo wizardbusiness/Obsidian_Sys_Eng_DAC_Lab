@@ -2,5 +2,7 @@
   "spellcheck": false,
   "readableLineLength": true,
   "alwaysUpdateLinks": true,
-  "focusNewTab": false
+  "focusNewTab": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./static"
 }

@@ -2,5 +2,11 @@
   "editor-width-slider",
   "inline-admonitions",
   "obsidian-admonition",
-  "open-tab-settings"
+  "open-tab-settings",
+  "image-converter",
+  "image-size",
+  "mehrmaid",
+  "mermaid-themes",
+  "mermaid-popup",
+  "obsidian-image-toolkit"
 ]
